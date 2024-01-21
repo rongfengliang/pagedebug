@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redirect</title>
+</head>
+<body>
+    <script>
+        var params = new URLSearchParams(window.location.search);
+        var myParam = params.get('lbs'); // 替换 'myParam' 为你想要获取的参数名
+        var newparam = myParam.replace("-",",");
+        window.location.href = "https://api.map.baidu.com/marker?location="+newparam+"&title=预警信息&content=位置信息&coord_type=wgs84&output=html&src=webapp.baidu.openAPIdemo";
+    </script>
+
+</body>
+</html>
