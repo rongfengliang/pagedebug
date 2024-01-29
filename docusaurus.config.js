@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PageDebug, <a target="_blank" href="https://beian.miit.gov.cn/">京ICP备2024046082号</a>`,
       },
       prism: {
         theme: prismThemes.github,
