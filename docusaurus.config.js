@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PageDebug, <a target="_blank" href="https://beian.miit.gov.cn/">京ICP备2024046082号</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} PageDebug, <img src="img/beian.png" class="w-full" style="width: 16px;">  <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802043933" rel="noreferrer" target="_blank">京公网安备11010802043933</a> <a target="_blank" href="https://beian.miit.gov.cn/">京ICP备2024046082号</a>`,
       },
       prism: {
         theme: prismThemes.github,
